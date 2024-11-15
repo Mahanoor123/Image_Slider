@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Image Slider</title>
+</head>
+
+<body>
+
+    <div class="main_continer">
+        <div class="main_image">
+
+            <button class="left" onclick="leftArrow()"><i class="fa-regular fa-less-than"></i></button>
+            <button class="right" onclick="rightArrow()"><i class="fa-regular fa-greater-than"></i></button>
+
+            <img src="./images/product1.jpg" id="slider_img">
+        </div>
+        <div class="sub_images">
+            <img src="./images/product2.jpg" class="small_image">
+            <img src="./images/product3.jpg" class="small_image">
+            <img src="./images/product4.jpg" class="small_image">
+            <img src="./images/product5.jpg" class="small_image">
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
